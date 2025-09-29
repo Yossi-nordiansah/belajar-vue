@@ -1,6 +1,5 @@
 <script setup>
 import CompositionComponent from './components/CompositionComponent.vue'
-import Header from './components/Header.vue'
 import OptionComponent from './components/OptionComponent.vue'
 </script>
 
