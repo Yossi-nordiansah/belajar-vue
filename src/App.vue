@@ -1,5 +1,7 @@
 <script setup>
+import CompositionComponent from './components/CompositionComponent.vue'
 import Header from './components/Header.vue'
+import OptionComponent from './components/OptionComponent.vue'
 </script>
 
 <template>
@@ -8,6 +10,8 @@ import Header from './components/Header.vue'
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
   </p>
+  <CompositionComponent />
+  <OptionComponent />
 </template>
 
 <style scoped></style>
