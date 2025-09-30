@@ -1,5 +1,6 @@
 <script setup>
 import CompositionComponent from './components/CompositionComponent.vue'
+import Description from './components/Description.vue'
 import OptionComponent from './components/OptionComponent.vue'
 </script>
 
@@ -11,6 +12,7 @@ import OptionComponent from './components/OptionComponent.vue'
   </p>
   <CompositionComponent />
   <OptionComponent />
+  <Description />
 </template>
 
 <style scoped></style>
